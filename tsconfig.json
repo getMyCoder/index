@@ -58,6 +58,14 @@
       "img":"other2.png",
       "text":"九宫格拼图小游戏"
     }
+  ],
+  "Development":[
+    {
+      "title":"响应式布局",
+      "url":"https://getmycoder.github.io/media/view-js/",
+      "img":"Development1.png",
+      "text":"响应式布局，兼容IE8,通过dom区域的宽度，来进行模拟media"
+    }
   ]
 
 }
