@@ -99,7 +99,7 @@ $(function () {
         var ConDiv="<div class='main-con'><div class='"+titleClass+"'><h2>"+title+"</h2></div><div class='con "+newDiv+"'><ul></ul></div></div>";
         $(".main").append(ConDiv);
         for(var a=0;a<data.length;a++){
-            var createDiv="<li><a href='"+data[a].url+"'><div class='img'><img src='imgsrc/"+data[a].img+"' alt=''></div><div class='title'>"+data[a].title+"</div><div class='text'>"+data[a].text+"</div></a></li>";
+            var createDiv="<li><a href='"+data[a].url+"'  target='_blank'><div class='img'><img src='imgsrc/"+data[a].img+"' alt=''></div><div class='title'>"+data[a].title+"</div><div class='text'>"+data[a].text+"</div></a></li>";
             var someDiv="."+newDiv+" ul";
             $(someDiv).append(createDiv);
         }
