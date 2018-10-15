@@ -74,6 +74,7 @@ $(function () {
             getAjaxContainer(response.project,"project-con","项目案例","main-title");
             getAjaxContainer(response.plug,"jquery-con","插件","main-project");
             getAjaxContainer(response.other,"other-con","其他","main-other");
+            getAjaxContainer(response.Development,"development-con","Development","main-development");
             $(".con ul li").each(function (index) {
                 var bgSelect=bgColor[parseInt(Math.random()*bgColor.length)];
                 $(this).find(".img").css({
@@ -99,11 +100,12 @@ $(function () {
         var ConDiv="<div class='main-con'><div class='"+titleClass+"'><h2>"+title+"</h2></div><div class='con "+newDiv+"'><ul></ul></div></div>";
         $(".main").append(ConDiv);
         for(var a=0;a<data.length;a++){
-            var createDiv="<li><a href='"+data[a].url+"'  target='_blank'><div class='img'><img src='imgsrc/"+data[a].img+"' alt=''></div><div class='title'>"+data[a].title+"</div><div class='text'>"+data[a].text+"</div></a></li>";
+            var createDiv="<li><a href='"+data[a].url+"' target='_blank'><div class='img'><img src='imgsrc/"+data[a].img+"' alt=''></div><div class='title'>"+data[a].title+"</div><div class='text'>"+data[a].text+"</div></a></li>";
             var someDiv="."+newDiv+" ul";
             $(someDiv).append(createDiv);
         }
         var newClass="."+titleClass;
         $(newClass).css({"background":bgColor[parseInt(Math.random()*bgColor.length)]});
+        $(newClass).addClass("AddActive")
     }
 });
