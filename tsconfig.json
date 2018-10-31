@@ -43,6 +43,12 @@
        "url":"https://getmycoder.github.io/MobileBanner/",
        "img":"jquery4.png",
        "text":"手机banner，可以手动滑动的banner"
+     },
+     {
+       "title":"树插件",
+       "url":"https://getmycoder.github.io/Tree/",
+       "img":"jquery4.png",
+       "text":"树列表插件"
      }
    ],
   "other":[
