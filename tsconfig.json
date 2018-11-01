@@ -23,7 +23,13 @@
      {
        "title":"page分页插件",
        "url":"https://getmycoder.github.io/pages/page-dom.html",
-       "img":"jquery1.png",
+       "img":"pageN.png",
+       "text":"用于项目中的分页，例如新闻列表"
+     },
+       {
+       "title":"page分页",
+       "url":"https://getmycoder.github.io/pageNew/",
+       "img":"pageN.png",
        "text":"用于项目中的分页，例如新闻列表"
      },
      {
@@ -47,7 +53,7 @@
      {
        "title":"树插件",
        "url":"https://getmycoder.github.io/Tree/",
-       "img":"jquery4.png",
+       "img":"tree.png",
        "text":"树列表插件"
      }
    ],
