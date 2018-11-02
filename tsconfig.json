@@ -32,6 +32,12 @@
        "img":"pageN.png",
        "text":"用于项目中的分页，例如新闻列表"
      },
+       {
+       "title":"表情插件",
+       "url":"https://getmycoder.github.io/emoji/",
+       "img":"emoji.png",
+       "text":"留言、回复"
+     },
      {
        "title":"zTree插件",
        "url":"https://getmycoder.github.io/zTree/",
