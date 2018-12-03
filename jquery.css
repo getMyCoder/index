@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6{padding: 0;margin: 0;}
 .main-con{width: 1200px;margin: 0 auto;}
 .con{margin-top: 30px;}
 .con ul{overflow: hidden;}
-.con ul li{float: left;width: 273px;margin: 5px;background: #fff;-webkit-border-radius: 5px;-moz-border-radius:  5px;border-radius:  5px;overflow: hidden;box-shadow: 0 0 10px 1px #ccc;height: 277px;}
+.con ul li{float: left;width: 280px;margin: 10px;background: #fff;-webkit-border-radius: 5px;-moz-border-radius:  5px;border-radius:  5px;overflow: hidden;box-shadow: 0 0 10px 1px #ccc;height: 277px;}
 .con ul li a{}
 .img{text-align: center;border-bottom:1px solid #fff;}
 .img img{width: 240px;margin: 15px 0;height: 135px;}
