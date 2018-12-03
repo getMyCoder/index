@@ -21,7 +21,7 @@
   ],
   "plug": [
     {
-      "title": "MVC",
+      "title": "仿Vue插件(AVM)",
       "url": "https://getmycoder.github.io/AVM/",
       "img": "AVM.png",
       "text": "仿Vue，只有数据的循环和事件"
