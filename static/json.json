@@ -7,7 +7,9 @@
     "mailbox":"12121212@qq.com",
     "lastSTime":"2018/12/11-10:37",
     "lastETime":"2018/12/11-11:37",
-    "BGing":3
+    "BGing":3,
+    "user":"json",
+    "password":2019115
   },
   "wordNotes":[
     {"id":0,"name":"Animate.doc","href":""},
